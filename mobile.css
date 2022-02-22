@@ -1,0 +1,21 @@
+html {
+  background-image: url("images/pattern-background-mobile.svg");
+}
+
+.panel {
+  width: 345px;
+  height: 80vh;
+  margin-top: 4rem;
+}
+
+.main-image {
+  width: 345px;
+}
+
+.btn-payment {
+  padding: 1rem 4.5rem;
+}
+
+.attribution {
+  font-size: 0.8rem;
+}
