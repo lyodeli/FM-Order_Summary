@@ -78,6 +78,7 @@ img {
   width: 80%;
   border-radius: 10px;
   height: 13%;
+  padding: 1rem;
   background-color: hsl(225, 100%, 98%);
 }
 
