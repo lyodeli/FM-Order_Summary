@@ -10,7 +10,6 @@ html {
   background-repeat: no-repeat;
   background-color: hsl(225, 100%, 94%);
   font-family: "Red Hat Display", sans-serif;
-  height: 100vh;
 }
 
 body {
@@ -19,30 +18,29 @@ body {
   align-items: center;
   justify-content: center;
   align-content: center;
-  min-height: 90vh;
+  height: 100vh;
 }
 
 .panel {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
   align-content: center;
-  width: 400px;
-  min-height: 70vh;
+  width: 450px;
+  min-height: 700px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 3px 10px 7px rgb(0 0 0 / 0.1);
 }
 
 .main-image {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
   flex-wrap: nowrap;
-  width: 400px;
+  width: 450px;
 }
 
 img {
@@ -59,15 +57,18 @@ img {
   padding: 1rem;
 }
 .summary h1 {
+  margin-top: 1rem;
   padding: 1rem;
+  font-size: 1.8rem;
 }
 .summary p {
-  padding: 1rem 2rem;
+  padding: 0 2rem 1rem 2rem;
   display: flex;
   justify-content: center;
   align-content: center;
   color: hsl(224, 23%, 55%);
   text-align: center;
+  font-size: 1.1rem;
 }
 
 .plan {
@@ -76,9 +77,9 @@ img {
   justify-content: space-around;
   align-items: center;
   width: 80%;
+  margin: auto;
   border-radius: 10px;
-  height: 13%;
-  padding: 1rem;
+  padding: 2rem;
   background-color: hsl(225, 100%, 98%);
 }
 
@@ -89,17 +90,17 @@ img {
 }
 
 .plan-detail h2 {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .plan-detail p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: hsl(224, 23%, 55%);
 }
 
 .plan a {
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: hsl(245, 75%, 52%);
 }
 
@@ -109,11 +110,13 @@ img {
 }
 
 .buttons {
-  width: 100%;
+  width: 80%;
+  margin: auto;
+  min-height: 10vh;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -121,10 +124,10 @@ img {
   background-color: hsl(245, 75%, 52%);
   color: white;
   border: none;
+  font-size: 1rem;
   font-weight: 700;
-  padding: 1rem 5.8rem;
+  padding: 1rem 6rem;
   border-radius: 10px;
-  margin-bottom: 2rem;
   box-shadow: 0 3px 10px 7px rgb(0 0 0 / 0.1);
 }
 
@@ -136,6 +139,7 @@ img {
   background-color: white;
   color: hsl(224, 23%, 55%);
   border: none;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -144,7 +148,7 @@ img {
 }
 .attribution {
   font-size: 0.9rem;
-  padding-top: 5rem;
+  padding: 3rem;
 }
 
 .attribution a {

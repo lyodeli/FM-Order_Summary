@@ -3,19 +3,50 @@ html {
 }
 
 .panel {
-  width: 345px;
-  height: 80vh;
+  width: 335px;
+  min-height: 575px;
   margin-top: 4rem;
 }
 
 .main-image {
-  width: 345px;
+  width: 335px;
 }
 
+.summary h1 {
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.summary p {
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+.plan {
+  margin: 1rem;
+  padding: 1rem;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.plan a {
+  font-size: 0.8rem;
+}
+.buttons {
+  width: 90%;
+  min-height: 0;
+  margin: 0;
+}
 .btn-payment {
-  padding: 1rem 4.5rem;
+  padding: 1rem 4.3rem;
+}
+
+.btn-cancel {
+  margin: 1rem;
 }
 
 .attribution {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  padding: 1rem;
+  margin-top: 1rem;
 }
